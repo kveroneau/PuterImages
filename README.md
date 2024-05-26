@@ -1,2 +1,7 @@
-# PuterImages
-Build files for both the Puter Live Kiosk Image and the Puter Instant Dev Image
+# Debian Live Build files for Puter related images
+
+This repository will soon contain two directories, one for a *Boot2Puter* Live Image, a **Kiosk** example.  The other Image will be a fully working Puter development system from boot, where a prospect contributor to Puter can easily get themselves started with Puter development merely by booting the image either on their bare hardware using standard boot methods, or from inside a virtual machine.  Further information will be provided here once the image build files are available.
+
+Feel free to make any local modifications and rebuild the images yourself if you feel you need some additional packages and/or customizations for your specific purposes.
+
+These are provided as *Demo Images* to showcase (Hacker's Edge Developer Images)[http://www.hackers-edge.com/].  If your open source project would like a similar image created to allow new prospect contributors to start working on your project effortlessly without needing to install or go through any complicated steps, then please contact me.  For basic customizations, I am providing this Live Image service for free to open source projects.  If you are a company interested in a fully branded development environment similar to one showcased here for Puter, please contact me to discuss your project requirements and to obtain a quote for the service.  Based on if your organization needs ongoing support and builds, or just a build source directory to get your company started will vary the price and ongoing prices if continued support and builds are wanted.
