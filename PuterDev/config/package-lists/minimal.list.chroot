@@ -1,0 +1,9 @@
+linux-image-amd64
+hostname
+eject
+file
+user-setup
+sudo
+live-tools
+systemd-timesyncd
+net-tools

@@ -1,0 +1,14 @@
+!#/bin/sh
+
+lb config noauto \
+        -b iso \
+        -d bookworm \
+        --apt-indices false \
+        --apt-recommends false \
+        --memtest none \
+        --iso-volume "Puter Development System" \
+        --iso-preparer "Kevin Veroneau" \
+        --iso-publisher "Hacker's Edge" \
+        --bootappend-live "boot=live config hostname=live quiet" \
+        --archive-areas "main contrib non-free non-free-firmware" \
+        "${@}"

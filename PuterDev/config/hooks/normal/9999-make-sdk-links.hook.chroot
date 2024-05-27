@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd /usr/local/bin
+ln -s /opt/SDK/node-v22.2.0-linux-x64/bin/* .
+popd
