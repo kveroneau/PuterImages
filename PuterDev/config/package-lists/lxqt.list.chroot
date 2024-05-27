@@ -4,7 +4,7 @@ task-lxqt-desktop
 papirus-icon-theme
 lxqt-themes
 alsa-utils
-firefox-esr
+chromium
 ca-certificates
 firejail
 firetools
